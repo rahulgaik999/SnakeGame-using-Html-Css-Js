@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background-image: url("img/bg.jpg");
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox {
+    position: absolute;
+    top: 9px;
+    right: 155px;
+    font-size: 39px;
+    font-style: italic;
+
+}
+
+.board {
+    background: linear-gradient(#93A5CF, #E4EfE9);
+    height: 92vmin;
+    width: 90vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+
+}
+
+.head {
+    background: linear-gradient(#2E3192, #1BFFFF);
+    border: 1px solid black;
+    transform: scale(1.02);
+    border-radius: 3px;
+}
+
+.snake {
+    background-color: purple;
+    border: .23vmin;
+    border-radius: 12px;
+
+}
+
+.food {
+    background: linear-gradient(red, purple);
+    border: .25min solid black;
+    border-radius: 8px;
+}
