@@ -1,5 +1,3 @@
-console.log("hello this code is written by Rahul Gaikwad");
-
 // Game variables
 let directions = { x: 0, y: 0 }; // Direction in which the snake is moving
 let foodSound = new Audio("food.mp3"); // Sound played when food is eaten
